@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+   -moz-box-shadow: 0 10px 6px -6px #777;
+   box-shadow: 0 10px 6px -6px #777;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+
+            .p1 {
+                font-size: 3rem;
+                color: black;
+                font-weight: 700;
+            }
+
+            .p2 {
+                font-size: 3rem;
+                color: red;
+                font-weight: 700;
+            }
+        }
+
+        nav {
+            ul {
+                gap: 20px;
+
+                li {
+                    font-size: 1.3rem;
+
+                    a {
+                        color: rgb(51, 49, 49);
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.section-cards {
+   padding-top: 100px;
+}
